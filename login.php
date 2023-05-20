@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mystyle.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="https://e7.pngegg.com/pngimages/728/384/png-clipart-vadodara-bank-of-baroda-central-bank-of-india-online-banking-bank-angle-text-thumbnail.png">
+</head>
+<body>
+    <header>
+        <img src="https://i.pinimg.com/originals/64/19/09/641909d6f37f5523a915b48a0a74a10c.png" alt="logo" class="logo" width="125" height="140">
+        <h1> <center>BANK OF BARODA</center></h1>
+        
+    </header>
+  
+        <table class="navigation">
+            <tbody>
+                <tr>
+                <td class="navi" ><a href="ass1.html">Dashboard</a></td>
+                <td class="navi"><a href="accountopening.html">Open A/C</a></td>
+                <td class="navi"><a href="#">Loan</a></td>
+                <td class="navi"><a href="#">Deposit</a></td>
+            </tr>
+            </tbody>
+        </table>
+    <br>
+    <!-- <div class="try" style="border:1px solid black; display: flexbox;"> -->
+    <!-- <h2><center>Login</center></h2> -->
+    <form id="login">
+      <h1 style=" color: aliceblue;background-color: rgb(238, 39, 39);margin: 0px; padding: 20px; border: 2px black solid;"><center>Login</center></h1>
+        <!-- <hr height="10px" color="black"> -->
+        <table>
+          <tr>
+            <td class="fields"><label for="userame">UserName:</label></td>
+            <td class="inputs"><?php echo $_POST['u_name'] ?></td>
+          </tr>
+          <tr>
+            <td class="fields"><label for="pwd">Password:</label></td>
+            <td class="inputs">  <?php echo $_POST['pwd'] ?></td>
+          </tr>
+          <tr>
+            <td></td>
+            <!-- <td colspan="2"><button type="submit" value="submit" style="margin-left:-58%;">Login Now</button></td> -->
+          </tr>
+        </table>
+      
+    </form>
+  <!-- </div> -->
+</body>
+</html>
